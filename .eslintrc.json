@@ -77,7 +77,7 @@
                     ["CONSTS", "./src/js/consts"],
                     ["FONTS", "./src/fonts"],
                     ["ASSETS", "./src/assets"],
-                    ["IMAGES", "./src/assets/images"],
+                    ["IMAGES", "./src/assets/images"]
                 ]
             }
         }
