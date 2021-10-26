@@ -1,0 +1,81 @@
+:root {
+    --app-height: 100%;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-SemiBold.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-BoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-ExtraBold.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('~FONTS/OpenSans/OpenSans-ExtraBoldItalic.ttf');
+    font-weight: 900;
+    font-style: italic;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: OpenSans;
+    background-color: #111111;
+    color: #9e9e9e;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}

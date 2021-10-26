@@ -1,0 +1,85 @@
+{
+    "ignorePatterns": ["dist", "node_modules"],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "react/prop-types": 0,
+        "max-len": [
+            0,
+            {
+                "code": 80,
+                "ignoreComments": true,
+                "ignoreUrls": true
+            }
+        ],
+        "prefer-template": "off",
+        "indent": ["warn", 4],
+        "object-curly-spacing": 1,
+        "no-multiple-empty-lines": [
+            1,
+            {
+                "max": 1,
+                "maxEOF": 1
+            }
+        ],
+        "no-plusplus": "off",
+        "no-param-reassign": "off",
+        "prefer-arrow-callback": "off",
+        "no-unused-vars": ["warn", { "args": "none" }],
+        "import/no-unresolved": "warn",
+        "no-var": 1,
+        "camelcase": 1,
+        "no-new-wrappers": 1,
+        "no-nested-ternary": 0,
+        "no-console": "off",
+        "no-template-curly-in-string": 1,
+        "no-self-compare": 1,
+        "import/prefer-default-export": 0,
+        "func-names": [0, "as-needed"],
+        "arrow-body-style": 0,
+        "semi": ["warn", "always", { "omitLastInOneLineBlock": true }],
+        "import/no-extraneous-dependencies": [
+            "off",
+            { "devDependencies": false }
+        ]
+    },
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base",
+        "prettier",
+        "plugin:import/recommended",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": ["prettier"],
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    ["JS", "./src/js"],
+                    ["HELPERS", "./src/js/helpers"],
+                    ["CONSTS", "./src/js/consts"],
+                    ["FONTS", "./src/fonts"],
+                    ["ASSETS", "./src/assets"],
+                    ["IMAGES", "./src/assets/images"],
+                ]
+            }
+        }
+    }
+}
